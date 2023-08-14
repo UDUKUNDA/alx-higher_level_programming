@@ -6,4 +6,3 @@ def new_in_list(my_list, idx, element):
     y = [a for a in my_list]
     y[idx] = element
     return (y)
-
