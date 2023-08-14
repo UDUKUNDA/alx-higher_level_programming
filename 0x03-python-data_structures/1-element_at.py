@@ -1,5 +1,5 @@
 #!/usr/bin/pythin3
-# this 1-element_at.py is the second
+# 1-element_at.py
 
 
 def element_at(my_list, idx):
