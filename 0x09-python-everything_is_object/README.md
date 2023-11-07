@@ -1,1 +1,1 @@
-everthing is object
+everthing must be object
