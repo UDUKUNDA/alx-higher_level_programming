@@ -1,6 +1,5 @@
-
 #!/usr/bin/python3
-
+""" These will be the tests for rectangle """
 
 import io
 

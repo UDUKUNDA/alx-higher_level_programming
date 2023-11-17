@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+""" The tests for square """
 
 import unittest
 

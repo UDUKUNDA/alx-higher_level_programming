@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Now this represents a bbase class"""
+"""Now this  for the base class"""
 class Base:
     __nb_objects = 0
     def __init__(self, id = None):

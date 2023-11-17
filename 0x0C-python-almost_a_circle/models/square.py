@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This the Module for Square class that inherits from Rectangle"""
+"""This for square"""
 
 from models.rectangle import Rectangle
 
