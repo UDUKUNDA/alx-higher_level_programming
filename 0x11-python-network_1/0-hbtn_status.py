@@ -3,15 +3,18 @@
 
 import urllib.request
 
-myUrl = "https://alx-intranet.hbtn.io/status"
+if __name__ == "__main__":
+    """fetches https://intranet.hbtn.io/status"""
 
-with urllib.request.urlopen(myUrl) as response:
+    myUrl = "https://alx-intranet.hbtn.io/status"
 
-    bdy = response.read()
-    bdy_str = bdy.decode('utf-8')
+    with urllib.request.urlopen(myUrl) as response:
 
-print("Body response:")
-print("\t- type: {}".format(type(bdy)))
-print("\t- content: {}".format(bdy))
-print("\t- utf-8 content: {}".format(bdy_str))
+        bdy = response.read()
+        bdy_str = bdy.decode('utf-8')
+
+    print("Body response:")
+    print("\t- type: {}".format(type(bdy)))
+    print("\t- content: {}".format(bdy))
+    print("\t- utf-8 content: {}".format(bdy_str))
 
